@@ -1,0 +1,91 @@
+.crypto {
+  position: relative;
+  padding: 320px 0 100px 0;
+  background: linear-gradient(180deg, #f8f9fb 0%, #fafbff 100%);
+  &__title {
+    max-width: 740px;
+    text-align: center;
+    margin: 0 auto;
+    color: #0d0d2b;
+    margin-bottom: 65px;
+  }
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    grid-template-rows: 430px;
+    justify-content: center;
+    gap: 45px;
+  }
+  &__item {
+    padding: 50px 25px;
+    background: #ffffff;
+    filter: drop-shadow(0px 20px 200px rgba(57, 23, 119, 0.05));
+    border-radius: 16px;
+  }
+  &__icon {
+    margin-bottom: 15px;
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  &__descr {
+    font-weight: 700;
+    position: relative;
+    color: #0d0d2b;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-right: 36px;
+    span {
+      margin-left: 10px;
+      position: absolute;
+      top: 20%;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 150%;
+      color: #bdbdbd;
+    }
+  }
+  &__subdescr {
+    max-width: 320px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #828282;
+    margin-bottom: 25px;
+  }
+  &__arrow {
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  &__button {
+    margin: 0 auto;
+  }
+}
+.active {
+  background: #2b076e;
+  backdrop-filter: blur(125px);
+  .crypto__descr {
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-right: 36px;
+    span {
+      color: #ffffff;
+      opacity: 0.7;
+    }
+  }
+  .crypto__subdescr {
+    color: #ffffff;
+  }
+}
+.hidden {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}

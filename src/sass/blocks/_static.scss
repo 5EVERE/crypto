@@ -1,0 +1,9 @@
+.static {
+  padding-bottom: 120px;
+  background: #2b076e;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

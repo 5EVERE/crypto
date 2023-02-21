@@ -1,0 +1,24 @@
+.market {
+  position: relative;
+  padding: 100px 0 120px 0;
+  background: #2b076e;
+  &__circle {
+    position: absolute;
+    top: 0;
+    left: 35%;
+  }
+  &__circle2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  &__title {
+    max-width: 750px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+  &__subtitle {
+    max-width: 400px;
+  }
+}

@@ -1,0 +1,58 @@
+.mining {
+  position: relative;
+  padding: 90px 0;
+  background: linear-gradient(180deg, #2b076e 0%, #0d0d2b 100%);
+  &__box {
+    width: 100%;
+    padding: 40px;
+    background: #3671e9;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__title {
+    margin-bottom: 15px;
+  }
+  &__subtitle {
+    max-width: 350px;
+    color: #ffffff;
+  }
+  &__form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 560px;
+  }
+  &__input {
+    width: 370px;
+    padding: 10px 0;
+    background: #3671e9;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    &::placeholder {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      color: #ffffff;
+    }
+  }
+  &__button {
+    width: 150px;
+    padding: 16px;
+    color: #0d0d2b;
+
+    background: #ffffff;
+    border-radius: 32px;
+  }
+  &__line1 {
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+  }
+  &__line2 {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+  }
+}

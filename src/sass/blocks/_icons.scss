@@ -1,0 +1,18 @@
+.icons {
+  padding: 100px 0;
+  background: #0d0d2b;
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__item {
+    min-width: 340px;
+    display: flex;
+  }
+  &__logo {
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+  }
+}
