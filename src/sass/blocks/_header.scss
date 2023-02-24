@@ -35,17 +35,23 @@
     align-items: center;
   }
   &__li {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    letter-spacing: 0.01em;
-    color: #ffffff;
+    a {
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: 0.01em;
+      color: #ffffff;
+    }
   }
   &__buttons {
     min-width: 220px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  &__button {
+    cursor: pointer;
   }
   &__login {
     text-decoration: none;

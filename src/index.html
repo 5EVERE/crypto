@@ -9,19 +9,29 @@
     <script defer src="js/script.js"></script>
   </head>
   <body>
-    <section class="promo">
+    <section class="promo" id="promo">
       <div class="container">
         <header class="header">
           <div class="header__logo">
-            <a href="#"><img src="icons/header/Logo.png" alt="logo" /></a>
-            <a class="header__text" href="#">CRAPPO</a>
+            <a class="header__link" href="#promo"
+              ><img src="icons/header/Logo.png" alt="logo"
+            /></a>
+            <a class="header__text header__link" href="#promo">CRAPPO</a>
           </div>
           <div class="header__nav">
             <div class="header__ul">
-              <li class="header__li">Products</li>
-              <li class="header__li">Features</li>
-              <li class="header__li">About</li>
-              <li class="header__li">Contact</li>
+              <li class="header__li">
+                <a class="header__link" href="#crypto">Products</a>
+              </li>
+              <li class="header__li">
+                <a class="header__link" href="#market">Features</a>
+              </li>
+              <li class="header__li">
+                <a class="header__link" href="#market2">About</a>
+              </li>
+              <li class="header__li">
+                <a class="header__link" href="#footer">Contact</a>
+              </li>
             </div>
             <div class="header__buttons">
               <a class="header__login" href="#">Login</a>
@@ -62,7 +72,7 @@
         <img src="img/promo/line2.png" alt="line" />
       </div>
     </section>
-    <section class="icons">
+    <section class="icons" id="icons">
       <div class="container">
         <div class="icons__items">
           <div class="icons__item">
@@ -101,7 +111,7 @@
         </div>
       </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <div class="about__wrapper">
           <div class="about__img">
@@ -132,7 +142,7 @@
         </div>
       </div>
     </section>
-    <section class="crypto">
+    <section class="crypto" id="crypto">
       <div class="calculator">
         <form class="calculator__form" action="#">
           <input type="text" placeholder="Enter your hash rate" />
@@ -167,12 +177,15 @@
               Digital currency in which a record of transactions is maintained.
             </div>
             <a class="crypto__arrow hidden" href="#"
-              ><img src="icons/crypto/Arrow Right.png" alt="arrow"
+              ><img
+                class="crypto__arr"
+                src="icons/crypto/Arrow Right.png"
+                alt="arrow"
             /></a>
-            <div class="button promo__button crypto__button">
+            <button class="button promo__button crypto__button">
               <span>Start mining</span>
               <img src="img/button/Arrow Right.png" alt="arrow" />
-            </div>
+            </button>
           </div>
           <div class="crypto__item">
             <div class="crypto__icon">
@@ -186,12 +199,15 @@
               applications.
             </div>
             <a class="crypto__arrow" href="#"
-              ><img src="icons/crypto/Arrow Right.png" alt="arrow"
+              ><img
+                class="crypto__arr"
+                src="icons/crypto/Arrow Right.png"
+                alt="arrow"
             /></a>
-            <div class="button promo__button crypto__button hidden">
+            <button class="button promo__button crypto__button hidden">
               <span>Start mining</span>
               <img src="img/button/Arrow Right.png" alt="arrow" />
-            </div>
+            </button>
           </div>
           <div class="crypto__item">
             <div class="crypto__icon">
@@ -205,17 +221,20 @@
               world.
             </div>
             <a class="crypto__arrow" href="#"
-              ><img src="icons/crypto/Arrow Right.png" alt="arrow"
+              ><img
+                class="crypto__arr"
+                src="icons/crypto/Arrow Right.png"
+                alt="arrow"
             /></a>
-            <div class="button promo__button crypto__button hidden">
+            <button class="button promo__button crypto__button hidden">
               <span>Start mining</span>
               <img src="img/button/Arrow Right.png" alt="arrow" />
-            </div>
+            </button>
           </div>
         </div>
       </div>
     </section>
-    <section class="market">
+    <section class="market" id="market">
       <img class="market__circle" src="img/market/o.png" alt="circle" />
       <div class="container">
         <div class="title fz-40 market__title">
@@ -229,7 +248,7 @@
               Get full statistic information about the behaviour of buyers and
               sellers will help you to make the decision.
             </div>
-            <div class="button about__button">Learn More</div>
+            <button class="button about__button">Learn More</button>
           </div>
           <div class="market__img">
             <img src="img/market/Chart.png" alt="eth" />
@@ -237,7 +256,7 @@
         </div>
       </div>
     </section>
-    <section class="static">
+    <section class="static" id="static">
       <div class="container">
         <div class="static__wrapper">
           <div class="static__img">
@@ -249,12 +268,12 @@
               View all mining related information in realtime, at any point at
               any location and decide which polls you want to mine in.
             </div>
-            <div class="button about__button">Learn More</div>
+            <button class="button about__button">Learn More</button>
           </div>
         </div>
       </div>
     </section>
-    <section class="market">
+    <section class="market" id="market2">
       <img src="img/market/o2.png" alt="" class="market__circle2" />
       <div class="container">
         <div class="title fz-40 market__title">
@@ -270,7 +289,7 @@
               Use advanced analytical tools. Clear TradingView charts let you
               track current and historical profit investments.
             </div>
-            <div class="button about__button">Learn More</div>
+            <button class="button about__button">Learn More</button>
           </div>
           <div class="market__img">
             <img src="img/market/Table.png" alt="eth" />
@@ -278,7 +297,7 @@
         </div>
       </div>
     </section>
-    <section class="mining">
+    <section class="mining" id="mining">
       <div class="container">
         <div class="mining__box">
           <div class="mining__info">
@@ -300,7 +319,7 @@
       <img class="mining__line1" src="img/mining/line1.png" alt="line" />
       <img class="mining__line2" src="img/mining/line2.png" alt="line" />
     </section>
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="container">
         <div class="footer__wrapper">
           <div class="footer__logo">
@@ -310,21 +329,21 @@
           <div class="footer__links">
             <div class="footer__descr">Quick Link</div>
             <div class="footer__ul">
-              <a href="#">Home</a>
-              <a href="#">Product</a>
-              <a href="#">About</a>
-              <a href="#">Features</a>
-              <a href="#">Contact</a>
+              <a class="header__link" href="#promo">Home</a>
+              <a class="header__link" href="#crypto">Product</a>
+              <a class="header__link" href="#market">About</a>
+              <a class="header__link" href="#market2">Features</a>
+              <a class="header__link" href="#footer">Contact</a>
             </div>
           </div>
           <div class="footer__links">
             <div class="footer__descr">Quick Link</div>
             <div class="footer__ul">
-              <a href="#">Home</a>
-              <a href="#">Product</a>
-              <a href="#">About</a>
-              <a href="#">Features</a>
-              <a href="#">Contact</a>
+              <a class="header__link" href="#promo">Home</a>
+              <a class="header__link" href="#crypto">Product</a>
+              <a class="header__link" href="#market">About</a>
+              <a class="header__link" href="#market2">Features</a>
+              <a class="header__link" href="#footer">Contact</a>
             </div>
           </div>
           <div class="footer__pay">

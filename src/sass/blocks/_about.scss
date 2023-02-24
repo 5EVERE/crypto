@@ -24,16 +24,19 @@
   }
   &__D {
     position: absolute;
+    z-index: -1;
     top: -25%;
     right: 0;
   }
   &__line {
     position: absolute;
+    z-index: -1;
     bottom: 37%;
     left: 0;
   }
   &__U {
     position: absolute;
+    z-index: -1;
     bottom: 10%;
     right: 0;
   }

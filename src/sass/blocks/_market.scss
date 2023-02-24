@@ -4,11 +4,13 @@
   background: #2b076e;
   &__circle {
     position: absolute;
+    z-index: -1;
     top: 0;
     left: 35%;
   }
   &__circle2 {
     position: absolute;
+    z-index: -1;
     bottom: 0;
     right: 0;
   }
